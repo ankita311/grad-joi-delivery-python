@@ -1,0 +1,33 @@
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+*.env
+
+# Mac system files
+.DS_Store
+
+# Test and coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
