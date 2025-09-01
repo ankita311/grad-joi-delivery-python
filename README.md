@@ -28,7 +28,7 @@ Your expertise will directly impact how quickly and reliably customers receive t
 
 1. **Clone the repository**  
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/techops-recsys-grad-hiring/grad-joi-delivery-python.git
    cd grad-joi-delivery-python
    ```
 
