@@ -29,14 +29,46 @@ Your expertise will directly impact how quickly and reliably customers receive t
 | DeliveryPartner | id, name, deliveries                                 |
 | Item            | id, name, description, price, category               |
 | Store           | storeId, zone, items                                 |
-| Order           | ** To be Implemented **                                                     | 
+| Order           | ** To be Implemented **                              | 
+
+## Static Data
+
+**DistanceMap**
+
+| Zone One | Zone Two | Distance | 
+|----------|----------|----------|
+| ZONEA    | ZONEA    | 0        |
+| ZONEA    | ZONEB    | 3        |
+| ZONEA    | ZONEC    | 6        |
+| ZONEB    | ZONEC    | 3        |
+| ZONEB    | ZONEB    | 0        |
+| ZONEB    | ZONEC    | 8        |
+| ZONEC    | ZONEC    | 0        |
+
+**Stores**
+
+| StoreId | ZoneId | Items               |
+|---------|--------|---------------------|
+|  1      | ZoneA  | [Milk, Eggs, Bread] |
+|  2      | ZoneB  | [Bread, Milks ]     |
+|  3      | ZoneC  | [Juice, Bread ]     |
+
+**Items**
+
+| ItemId | Name     | Description | Price |
+|--------|----------|-------------|-------|
+|  1     | Notebook | ""          | 15    |
+|  2     | Keyboard | ""          | 50    |
+|  3     | Mouse    | ""          | 25    |
+|  4     | Monitor  | ""          | 75    |
+
 
 ## Technologies Used
 
 - **Python 3.7+**: Core backend language
 - **unittest**: For unit testing
 
-## Local Setup
+## Running SampleProblem Class
 
 1. **Clone the repository**  
    ```bash
@@ -57,3 +89,4 @@ Your expertise will directly impact how quickly and reliably customers receive t
 **Requirements:**
 
 - Python 3.7+ or later (recommended for dataclasses and modern features)
+
